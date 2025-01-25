@@ -1,3 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+    width: 100%;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.logo{
+    width: 187px;
+}
+
+.navigation-panel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navigation-panel__logo{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-panel__links{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 .text{
     color: #272F3A;
     font-size: 18px;
@@ -23,12 +55,6 @@
     height: 20%;
     border-radius: 4%;
     margin-top: 5%;
-}
-
-.container1{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
 }
 
 .container2 {
