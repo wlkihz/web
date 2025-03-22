@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Golos UI';
+    src: url('fonts/GolosUI-Regular.woff2') format('woff2'),
+         url('fonts/GolosUI-Regular.woff') format('woff');
+}
+
+.buttons {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.name {
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.post-text {
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-size: 15px;
+    color: #222222;
+}
+
+.post-img {
+    width: 474px;
+    height: 474px;
+}
+
+.time {
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-size: 14px;
+    color: #909090;
+}
+
+.like {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #f4f4f4;
+    color: #222222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Golos UI', Arial, sans-serif;
+}
+
+.edit {
+    width: 24px;
+    height: 24px;
+}
+
+.liked {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #fef6f6;
+    color: #740000;
+    border-color: #fec7c7;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Golos UI', Arial, sans-serif;
+}

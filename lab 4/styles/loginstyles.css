@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Golos UI';
+    src: url('fonts/GolosUI-Regular.woff2') format('woff2'),
+         url('fonts/GolosUI-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    color: #222222;
+    font-size: 140px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Golos UI', Arial, sans-serif;
+}
+
+.img {
+    width: 462px;
+    height: 501px;
+    object-fit: cover;
+}
+
+.button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Golos UI', Arial, sans-serif;
+}
+
+.text {
+    font-family: 'Golos UI', Arial, sans-serif;
+    color: #222222;
+    font-size: 15px;
+}
+
+.comm {
+    font-family: 'Golos UI', Arial, sans-serif;
+    color: #808080;
+    font-size: 13px;
+}
