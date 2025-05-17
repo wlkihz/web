@@ -6,12 +6,20 @@
 
 .buttons {
     width: 40px;
-    height: 40px;
+    height: 50px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .avatar {
     width: 132px;
     height: 132px;
+    max-width: 100%;
+    border-radius: 16px;
 }
 
 .name {
@@ -19,15 +27,25 @@
     font-size: 32px;
     font-weight: bold;
     font-family: 'Golos UI', Arial, sans-serif;
+    text-align: center;
+    margin-left: 10px;
 }
 
 .post-img {
-    width: 322,25px;
-    height: 322,25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bio  {
     color: #222222;
     font-size: 15px;
     font-family: 'Golos UI', Arial, sans-serif;
+    width: 360px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.postcount{
+    margin-bottom: 20px;
 }
