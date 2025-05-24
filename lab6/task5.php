@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-$num = $_GET['num'];
+$num = (int)$_GET['num'];
 echo(Factorial($num));
 
 function Factorial(int $num): int

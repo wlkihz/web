@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-$S1= $_GET['1'];
-$S2 = $_GET['1'];
-for ($i = (int)$S1; $i <= (int)$S2; $i++)
-  if (SummDig($i % 1000) == SummDig($i / 1000))
-    echo($i);
+$start = (int)$_GET['start'];
+$end = (int)$_GET['end'];
+
+for ($i = (int)$start; $i <= (int)$end; $i++)
+  if (SummDig($i % 1000) == SummDig((int)($i / 1000)))
+    echo($i . "\n");
 
 function SummDig(int $num): int
 {
   $Sum = 0;
-  $i = 1;
   while($num != 0){
-    Sum = Sum + ($num % 10) * $i;
-    $num = $num / 10;
-    $i *= 10;
+    $Sum += $num % 10;
+    $num = (int)($num / 10);
   }
+  return $Sum;
 }
