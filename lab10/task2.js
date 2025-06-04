@@ -11,7 +11,13 @@ function CountVowels(arr) {
             arr[j] == "ы" ||
             arr[j] == "э" ||
             arr[j] == "ю" ||
-            arr[j] == "я"
+            arr[j] == "я" ||
+            arr[j] == "a" ||
+            arr[j] == "e" ||
+            arr[j] == "i" ||
+            arr[j] == "o" ||
+            arr[j] == "u" ||
+            arr[j] == "y"
         ) {
             i++;
         }
@@ -19,4 +25,4 @@ function CountVowels(arr) {
     return i;
 }
 
-console.log(CountVowels("иаовыляяыащрагыра"));
+console.log(CountVowels("I Furina will use trial to show the world the true meaning of justice"));
