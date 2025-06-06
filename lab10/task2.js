@@ -25,4 +25,4 @@ function CountVowels(arr) {
     return i;
 }
 
-console.log(CountVowels("I Furina will use trial to show the world the true meaning of justice"));
+console.log(CountVowels("I Furina will use this trial to show the world the true meaning of justice"));
